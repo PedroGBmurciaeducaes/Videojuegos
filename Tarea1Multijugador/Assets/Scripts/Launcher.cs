@@ -16,7 +16,11 @@ public class Launcher : MonoBehaviourPunCallbacks
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+<<<<<<< HEAD
         Debug.Log("Correccion del bug aplicada");
+=======
+        Debug.Log("Nueva funcionalidad añadida");
+>>>>>>> nueva-funcionalidad
         PhotonNetwork.ConnectUsingSettings();
     }
 
